@@ -2,13 +2,6 @@
     <div class="flex flex-col p-8">
     
         
-        
-        
-        <div class="flex justify-center mt-2 gap-2">
-            <router-link :to="{ name: 'byLetter', params: {letter}}" v-for="letter of letters" :key="letter">
-                {{ letter  }}
-            </router-link>
-        </div>
     </div>
 </template>
   
@@ -18,7 +11,7 @@ import store from '../store';
 import axiosClient from '../axiosClient.js'
 
 
-const letters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split("");
+
 const ingredients = ref([])
 
 onMounted( async () => {
