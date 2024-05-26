@@ -4,6 +4,8 @@
                 {{ letter  }}
             </router-link>
     </div>
+
+   <Meals :meals="meals"/>
    
 </template>
 
@@ -12,7 +14,7 @@ import { computed } from "@vue/reactivity";
 import { onMounted, watch } from "vue";
 import { useRoute } from "vue-router";
 import store from "../store";
-import MealItem from "../components/MealItem.vue";
+import Meals from '../components/Meals.vue';
 
 
 
