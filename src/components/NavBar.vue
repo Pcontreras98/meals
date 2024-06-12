@@ -1,6 +1,7 @@
 <template>
     <header class="bg-white shadow h-16 flex justify-between items-stretch">
       <router-link :to="{name: 'home' }" class="inline-flex items-center h-full px-5 text-orange-500 font-bold">
+        <img src="./image/pabloContrerasLogo.png" alt="LogoPC" class="mr-2 h-14 w-48">
         Home
       </router-link>
 

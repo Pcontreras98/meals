@@ -1,6 +1,7 @@
 {
   "name": "vuejs-search-meals",
   "private": true,
+  "homepage": "https://pcontreras98.github.io/Vue-app-meals",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
